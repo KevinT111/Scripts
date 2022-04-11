@@ -1,1 +1,553 @@
 
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Username = Instance.new("TextButton")
+local LoginScreen = Instance.new("TextLabel")
+local PASSWORD = Instance.new("TextButton")
+local LOGIN = Instance.new("TextButton")
+local Script = Instance.new("Frame")
+local OPSCRIPT = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderColor3 = Color3.fromRGB(255, 11, 15)
+Main.Position = UDim2.new(0.397123665, 0, 0.317548752, 0)
+Main.Size = UDim2.new(0, 414, 0, 322)
+Main.Active = true
+Main.Draggable = true
+
+Username.Name = "Username"
+Username.Parent = Main
+Username.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+Username.BorderColor3 = Color3.fromRGB(55, 68, 255)
+Username.Position = UDim2.new(0, 0, 0.299159825, 0)
+Username.Size = UDim2.new(0, 415, 0, 50)
+Username.Font = Enum.Font.SourceSans
+Username.Text = "USERNAME"
+Username.TextColor3 = Color3.fromRGB(0, 0, 0)
+Username.TextSize = 50.000
+
+LoginScreen.Name = "Login Screen"
+LoginScreen.Parent = Main
+LoginScreen.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+LoginScreen.BorderColor3 = Color3.fromRGB(255, 3, 7)
+LoginScreen.Size = UDim2.new(0, 415, 0, 50)
+LoginScreen.Font = Enum.Font.SourceSans
+LoginScreen.Text = "V2 LOGIN SCREEN"
+LoginScreen.TextColor3 = Color3.fromRGB(245, 10, 14)
+LoginScreen.TextSize = 60.000
+
+PASSWORD.Name = "PASSWORD"
+PASSWORD.Parent = Main
+PASSWORD.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+PASSWORD.BorderColor3 = Color3.fromRGB(55, 68, 255)
+PASSWORD.Position = UDim2.new(0.0403011143, 0, 0.533758938, 0)
+PASSWORD.Size = UDim2.new(0, 391, 0, 50)
+PASSWORD.Font = Enum.Font.SourceSans
+PASSWORD.Text = "PASSWORD"
+PASSWORD.TextColor3 = Color3.fromRGB(0, 0, 0)
+PASSWORD.TextSize = 50.000
+
+LOGIN.Name = "LOGIN"
+LOGIN.Parent = Main
+LOGIN.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+LOGIN.BorderColor3 = Color3.fromRGB(55, 68, 255)
+LOGIN.Position = UDim2.new(0.109192893, 0, 0.776679993, 0)
+LOGIN.Size = UDim2.new(0, 318, 0, 50)
+LOGIN.Font = Enum.Font.SourceSans
+LOGIN.Text = "LOGIN"
+LOGIN.TextColor3 = Color3.fromRGB(0, 0, 0)
+LOGIN.TextSize = 45.000
+LOGIN.MouseButton1Down:connect(function()
+	Main.Visible = false
+	Script.Visible = true
+end)
+
+Script.Name = "Script"
+Script.Parent = ScreenGui
+Script.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Script.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Script.Position = UDim2.new(-0.000621303916, 0, 0.291086376, 0)
+Script.Size = UDim2.new(0, 156, 0, 87)
+Script.Visible = false
+Script.Active = true
+Script.Draggable = true
+
+OPSCRIPT.Name = "OP SCRIPT"
+OPSCRIPT.Parent = Script
+OPSCRIPT.BackgroundColor3 = Color3.fromRGB(53, 83, 255)
+OPSCRIPT.BorderColor3 = Color3.fromRGB(255, 3, 3)
+OPSCRIPT.Size = UDim2.new(0, 156, 0, 86)
+OPSCRIPT.Font = Enum.Font.SourceSans
+OPSCRIPT.Text = "V2 OP SCRIPTS"
+OPSCRIPT.TextColor3 = Color3.fromRGB(0, 0, 0)
+OPSCRIPT.TextSize = 14.000
+OPSCRIPT.MouseButton1Down:connect(function()
+
+	local ScreenGui = Instance.new("ScreenGui")
+	local Main = Instance.new("Frame")
+	local V2OPScripts = Instance.new("TextLabel")
+	local Close = Instance.new("TextButton")
+	local Evo2 = Instance.new("TextButton")
+	local LagSwitch = Instance.new("TextButton")
+	local EclipseHub = Instance.new("TextButton")
+	local Cmds = Instance.new("TextButton")
+	local CoCoHub = Instance.new("TextButton")
+	local RandomScripts = Instance.new("TextLabel")
+	local Infyield = Instance.new("TextButton")
+	local DarkHub = Instance.new("TextButton")
+	local AutorobJail = Instance.new("TextButton")
+	local ZyrexHub = Instance.new("TextButton")
+	local InvisibleFling = Instance.new("TextButton")
+	local DeltaHub = Instance.new("TextButton")
+	local AurtasHub = Instance.new("TextButton")
+	local Hubscripts = Instance.new("TextLabel")
+	local VGHub = Instance.new("TextButton")
+	local KatKillall = Instance.new("TextButton")
+	local BruhHub = Instance.new("TextButton")
+	local SAZAHUB = Instance.new("TextButton")
+	local Hydroxide = Instance.new("TextButton")
+	local Vynuxisjail = Instance.new("TextButton")
+	local DexHub = Instance.new("TextButton")
+	local CheatX = Instance.new("TextButton")
+	local RealHub = Instance.new("TextButton")
+	local AutoFarmBHR = Instance.new("TextButton")
+	local Scripts = Instance.new("TextLabel")
+	local PetsimxScript = Instance.new("TextButton")
+	local OpenMain = Instance.new("Frame")
+	local Open = Instance.new("TextButton")
+
+	ScreenGui.Parent = game.CoreGui
+
+	Main.Name = "Main"
+	Main.Parent = ScreenGui
+	Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Main.BorderColor3 = Color3.fromRGB(255, 10, 14)
+	Main.Position = UDim2.new(0.346505582, 0, 0.179665729, 0)
+	Main.Size = UDim2.new(0, 583, 0, 486)
+	Main.Active = true
+	Main.Draggable = true
+
+	V2OPScripts.Name = "V2 OP Scripts"
+	V2OPScripts.Parent = Main
+	V2OPScripts.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	V2OPScripts.Size = UDim2.new(0, 583, 0, 50)
+	V2OPScripts.Font = Enum.Font.SourceSans
+	V2OPScripts.Text = "V2 OP SCRIPTS  -- By Jerry"
+	V2OPScripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+	V2OPScripts.TextSize = 28.000
+
+	Close.Name = "Close"
+	Close.Parent = Main
+	Close.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	Close.BorderColor3 = Color3.fromRGB(48, 41, 255)
+	Close.Position = UDim2.new(0.929532826, 0, 0, 0)
+	Close.Size = UDim2.new(0, 41, 0, 50)
+	Close.Font = Enum.Font.SourceSans
+	Close.Text = "X"
+	Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Close.TextSize = 50.000
+	Close.MouseButton1Down:connect(function()
+		Main.Visible = false
+		OpenMain.Visible = true
+	end)
+
+	Evo2.Name = "Evo 2"
+	Evo2.Parent = Main
+	Evo2.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	Evo2.BorderColor3 = Color3.fromRGB(70, 255, 29)
+	Evo2.Position = UDim2.new(0.475901872, 0, 0.218131617, 0)
+	Evo2.Size = UDim2.new(0, 75, 0, 37)
+	Evo2.Font = Enum.Font.SourceSans
+	Evo2.Text = "Evo 2"
+	Evo2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Evo2.TextSize = 14.000
+	Evo2.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+	end)
+
+	LagSwitch.Name = "Lag Switch"
+	LagSwitch.Parent = Main
+	LagSwitch.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	LagSwitch.BorderColor3 = Color3.fromRGB(71, 255, 21)
+	LagSwitch.Position = UDim2.new(0.267845631, 0, 0.562624931, 0)
+	LagSwitch.Size = UDim2.new(0, 78, 0, 37)
+	LagSwitch.Font = Enum.Font.SourceSans
+	LagSwitch.Text = "Lag switch"
+	LagSwitch.TextColor3 = Color3.fromRGB(0, 0, 0)
+	LagSwitch.TextSize = 14.000
+	LagSwitch.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://paste.gg/p/anonymous/d3492bd620bd4c46b54680ac80b0fa0d/files/161ddd9c992c4ceba3c298458d45188a/raw", true))()
+	end)
+
+	EclipseHub.Name = "Eclipse Hub"
+	EclipseHub.Parent = Main
+	EclipseHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	EclipseHub.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	EclipseHub.Position = UDim2.new(0.838433027, 0, 0.788854897, 0)
+	EclipseHub.Size = UDim2.new(0, 76, 0, 37)
+	EclipseHub.Font = Enum.Font.SourceSans
+	EclipseHub.Text = "Eclipse Hub"
+	EclipseHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	EclipseHub.TextSize = 14.000
+	EclipseHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/EclipseMM2', true))()
+	end)
+
+	Cmds.Name = "Cmds"
+	Cmds.Parent = Main
+	Cmds.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	Cmds.BorderColor3 = Color3.fromRGB(58, 255, 23)
+	Cmds.Position = UDim2.new(0.0159770567, 0, 0.332150251, 0)
+	Cmds.Size = UDim2.new(0, 76, 0, 37)
+	Cmds.Font = Enum.Font.SourceSans
+	Cmds.Text = "Cmds"
+	Cmds.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Cmds.TextSize = 14.000
+	Cmds.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/NougatBitz/DuckHub/master/Main.lua'))()
+	end)
+
+	CoCoHub.Name = "CoCo Hub"
+	CoCoHub.Parent = Main
+	CoCoHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	CoCoHub.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	CoCoHub.Position = UDim2.new(0.838433027, 0, 0.674467981, 0)
+	CoCoHub.Size = UDim2.new(0, 76, 0, 37)
+	CoCoHub.Font = Enum.Font.SourceSans
+	CoCoHub.Text = "Coco Hub"
+	CoCoHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	CoCoHub.TextSize = 14.000
+	CoCoHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/CocoHub/master/CocoZHub'),true))()
+	end)
+
+	RandomScripts.Name = "Random Scripts"
+	RandomScripts.Parent = Main
+	RandomScripts.BackgroundColor3 = Color3.fromRGB(198, 0, 0)
+	RandomScripts.BorderColor3 = Color3.fromRGB(70, 255, 19)
+	RandomScripts.Position = UDim2.new(-0.000253562874, 0, 0.0998955518, 0)
+	RandomScripts.Size = UDim2.new(0, 129, 0, 43)
+	RandomScripts.Font = Enum.Font.SourceSans
+	RandomScripts.Text = "Random Scripts"
+	RandomScripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+	RandomScripts.TextSize = 23.000
+
+	Infyield.Name = "Inf yield"
+	Infyield.Parent = Main
+	Infyield.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	Infyield.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	Infyield.Position = UDim2.new(0.0155217359, 0, 0.45125863, 0)
+	Infyield.Size = UDim2.new(0, 77, 0, 37)
+	Infyield.Font = Enum.Font.SourceSans
+	Infyield.Text = "Inf yield"
+	Infyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Infyield.TextSize = 14.000
+	Infyield.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+
+	DarkHub.Name = "Dark Hub"
+	DarkHub.Parent = Main
+	DarkHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	DarkHub.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	DarkHub.Position = UDim2.new(0.840226829, 0, 0.452017456, 0)
+	DarkHub.Size = UDim2.new(0, 76, 0, 37)
+	DarkHub.Font = Enum.Font.SourceSans
+	DarkHub.Text = "Dark Hub"
+	DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	DarkHub.TextSize = 14.000
+	DarkHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
+	end)
+
+	AutorobJail.Name = "Auto rob Jail"
+	AutorobJail.Parent = Main
+	AutorobJail.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	AutorobJail.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	AutorobJail.Position = UDim2.new(0.272980839, 0, 0.452632308, 0)
+	AutorobJail.Size = UDim2.new(0, 76, 0, 37)
+	AutorobJail.Font = Enum.Font.SourceSans
+	AutorobJail.Text = "Jailbreak auto"
+	AutorobJail.TextColor3 = Color3.fromRGB(0, 0, 0)
+	AutorobJail.TextSize = 14.000
+	AutorobJail.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/alohabeach/Main/master/Scripts/Main.lua"))()
+	end)
+
+	ZyrexHub.Name = "Zyrex Hub"
+	ZyrexHub.Parent = Main
+	ZyrexHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	ZyrexHub.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	ZyrexHub.Position = UDim2.new(0.839538217, 0, 0.332266122, 0)
+	ZyrexHub.Size = UDim2.new(0, 76, 0, 37)
+	ZyrexHub.Font = Enum.Font.SourceSans
+	ZyrexHub.Text = "Zyrex Hub"
+	ZyrexHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	ZyrexHub.TextSize = 14.000
+	ZyrexHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/NotZyrex/Zyrex-Hub/master/Main.lua"),true))()
+	end)
+
+	InvisibleFling.Name = "Invisible Fling"
+	InvisibleFling.Parent = Main
+	InvisibleFling.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	InvisibleFling.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	InvisibleFling.Position = UDim2.new(0.015701551, 0, 0.213373184, 0)
+	InvisibleFling.Size = UDim2.new(0, 79, 0, 38)
+	InvisibleFling.Font = Enum.Font.SourceSans
+	InvisibleFling.Text = "Invisible Fling"
+	InvisibleFling.TextColor3 = Color3.fromRGB(0, 0, 0)
+	InvisibleFling.TextSize = 14.000
+	InvisibleFling.MouseButton1Down:connect(function()
+		spawn(function()
+			local message = Instance.new("Message",workspace)
+			message.Text = "Loaded press z to execute inviseble , press x to respawn)"
+			wait(0.5)
+			message:Destroy()
+		end)
+	end)
+
+	DeltaHub.Name = "Delta Hub"
+	DeltaHub.Parent = Main
+	DeltaHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	DeltaHub.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	DeltaHub.Position = UDim2.new(0.660641491, 0, 0.676208496, 0)
+	DeltaHub.Size = UDim2.new(0, 79, 0, 37)
+	DeltaHub.Font = Enum.Font.SourceSans
+	DeltaHub.Text = "Delta Hub"
+	DeltaHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	DeltaHub.TextSize = 14.000
+	DeltaHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/DeltaTechnologies/DeltaHub-/main/DeltaHub.txt"), true))()
+	end)
+
+	AurtasHub.Name = "Aurtas Hub"
+	AurtasHub.Parent = Main
+	AurtasHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	AurtasHub.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	AurtasHub.Position = UDim2.new(0.66474998, 0, 0.45317319, 0)
+	AurtasHub.Size = UDim2.new(0, 76, 0, 37)
+	AurtasHub.Font = Enum.Font.SourceSans
+	AurtasHub.Text = "Aurtas Hub"
+	AurtasHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	AurtasHub.TextSize = 14.000
+	AurtasHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/mtrRP1H1", true))()
+	end)
+
+	Hubscripts.Name = "Hub scripts"
+	Hubscripts.Parent = Main
+	Hubscripts.BackgroundColor3 = Color3.fromRGB(198, 0, 0)
+	Hubscripts.BorderColor3 = Color3.fromRGB(70, 255, 19)
+	Hubscripts.Position = UDim2.new(0.668700099, 0, 0.0998955518, 0)
+	Hubscripts.Size = UDim2.new(0, 193, 0, 43)
+	Hubscripts.Font = Enum.Font.SourceSans
+	Hubscripts.Text = "Hub scripts"
+	Hubscripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Hubscripts.TextSize = 40.000
+
+	VGHub.Name = "V.G Hub"
+	VGHub.Parent = Main
+	VGHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	VGHub.BorderColor3 = Color3.fromRGB(58, 255, 23)
+	VGHub.Position = UDim2.new(0.840838492, 0, 0.218183637, 0)
+	VGHub.Size = UDim2.new(0, 79, 0, 37)
+	VGHub.Font = Enum.Font.SourceSans
+	VGHub.Text = "V.G Hub"
+	VGHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	VGHub.TextSize = 14.000
+	VGHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+
+	KatKillall.Name = "Kat Kill all"
+	KatKillall.Parent = Main
+	KatKillall.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	KatKillall.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	KatKillall.Position = UDim2.new(0.474186599, 0, 0.450731039, 0)
+	KatKillall.Size = UDim2.new(0, 76, 0, 37)
+	KatKillall.Font = Enum.Font.SourceSans
+	KatKillall.Text = "Kat Kill all"
+	KatKillall.TextColor3 = Color3.fromRGB(0, 0, 0)
+	KatKillall.TextSize = 14.000
+	KatKillall.MouseButton1Down:connect(function()
+		loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+	end)
+
+	BruhHub.Name = "Bruh Hub"
+	BruhHub.Parent = Main
+	BruhHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	BruhHub.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	BruhHub.Position = UDim2.new(0.664061546, 0, 0.563094854, 0)
+	BruhHub.Size = UDim2.new(0, 76, 0, 37)
+	BruhHub.Font = Enum.Font.SourceSans
+	BruhHub.Text = "Bruh Hub"
+	BruhHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	BruhHub.TextSize = 14.000
+	BruhHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://bruh.keshhub.com/.lua"))()
+	end)
+
+	SAZAHUB.Name = "SAZA HUB"
+	SAZAHUB.Parent = Main
+	SAZAHUB.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	SAZAHUB.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	SAZAHUB.Position = UDim2.new(0.665881395, 0, 0.219036058, 0)
+	SAZAHUB.Size = UDim2.new(0, 79, 0, 37)
+	SAZAHUB.Font = Enum.Font.SourceSans
+	SAZAHUB.Text = "Saza Hub"
+	SAZAHUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+	SAZAHUB.TextSize = 14.000
+	SAZAHUB.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet"https://scriptblox.com/raw/SAZA-HUB_496")()
+	end)
+
+	Hydroxide.Name = "Hydroxide"
+	Hydroxide.Parent = Main
+	Hydroxide.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	Hydroxide.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	Hydroxide.Position = UDim2.new(0.475901663, 0, 0.331225842, 0)
+	Hydroxide.Size = UDim2.new(0, 76, 0, 37)
+	Hydroxide.Font = Enum.Font.SourceSans
+	Hydroxide.Text = "Hydroxide"
+	Hydroxide.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Hydroxide.TextSize = 14.000
+	Hydroxide.MouseButton1Down:connect(function()
+		local owner = "Upbolt"
+		local branch = "revision"
+
+		local function webImport(file)
+			return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
+		end
+
+		webImport("init")
+		webImport("ui/main")
+	end)
+
+
+	Vynuxisjail.Name = "Vynuxis jail"
+	Vynuxisjail.Parent = Main
+	Vynuxisjail.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	Vynuxisjail.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	Vynuxisjail.Position = UDim2.new(0.274019867, 0, 0.218776047, 0)
+	Vynuxisjail.Size = UDim2.new(0, 76, 0, 37)
+	Vynuxisjail.Font = Enum.Font.SourceSans
+	Vynuxisjail.Text = "Jailbreak Vyn"
+	Vynuxisjail.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Vynuxisjail.TextSize = 14.000
+	Vynuxisjail.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+	end)
+
+	DexHub.Name = "DexHub"
+	DexHub.Parent = Main
+	DexHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	DexHub.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	DexHub.Position = UDim2.new(0.838511348, 0, 0.564085305, 0)
+	DexHub.Size = UDim2.new(0, 76, 0, 37)
+	DexHub.Font = Enum.Font.SourceSans
+	DexHub.Text = "DexHub"
+	DexHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	DexHub.TextSize = 14.000
+	DexHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init', true))()
+	end)
+
+	CheatX.Name = "Cheat X"
+	CheatX.Parent = Main
+	CheatX.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	CheatX.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	CheatX.Position = UDim2.new(0.272980839, 0, 0.331847042, 0)
+	CheatX.Size = UDim2.new(0, 76, 0, 37)
+	CheatX.Font = Enum.Font.SourceSans
+	CheatX.Text = "Cheat X"
+	CheatX.TextColor3 = Color3.fromRGB(0, 0, 0)
+	CheatX.TextSize = 14.000
+	CheatX.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/CheatX/main/misc/basic.lua'))()
+	end)
+
+	RealHub.Name = "RealHub"
+	RealHub.Parent = Main
+	RealHub.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	RealHub.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	RealHub.Position = UDim2.new(0.668700099, 0, 0.333031595, 0)
+	RealHub.Size = UDim2.new(0, 76, 0, 37)
+	RealHub.Font = Enum.Font.SourceSans
+	RealHub.Text = "RealHub"
+	RealHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+	RealHub.TextSize = 14.000
+	RealHub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://realzzhub.xyz/script.lua'))()
+	end)
+
+	AutoFarmBHR.Name = "Auto Farm B H R"
+	AutoFarmBHR.Parent = Main
+	AutoFarmBHR.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	AutoFarmBHR.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	AutoFarmBHR.Position = UDim2.new(0.473771632, 0, 0.562770724, 0)
+	AutoFarmBHR.Size = UDim2.new(0, 75, 0, 37)
+	AutoFarmBHR.Font = Enum.Font.SourceSans
+	AutoFarmBHR.Text = "Auto Farm B H R"
+	AutoFarmBHR.TextColor3 = Color3.fromRGB(0, 0, 0)
+	AutoFarmBHR.TextSize = 14.000
+	AutoFarmBHR.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Roblox/main/BRM5/Autofarm.lua"))()
+	end)
+
+	Scripts.Name = "Scripts"
+	Scripts.Parent = Main
+	Scripts.BackgroundColor3 = Color3.fromRGB(198, 0, 0)
+	Scripts.BorderColor3 = Color3.fromRGB(70, 255, 19)
+	Scripts.Position = UDim2.new(0.274188966, 0, 0.0998955518, 0)
+	Scripts.Size = UDim2.new(0, 193, 0, 43)
+	Scripts.Font = Enum.Font.SourceSans
+	Scripts.Text = "Scripts"
+	Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Scripts.TextSize = 50.000
+
+	PetsimxScript.Name = "Pet sim x Script"
+	PetsimxScript.Parent = Main
+	PetsimxScript.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	PetsimxScript.BorderColor3 = Color3.fromRGB(32, 255, 17)
+	PetsimxScript.Position = UDim2.new(0.267249525, 0, 0.675234914, 0)
+	PetsimxScript.Size = UDim2.new(0, 76, 0, 37)
+	PetsimxScript.Font = Enum.Font.SourceSans
+	PetsimxScript.Text = "Pet SIm x Script"
+	PetsimxScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+	PetsimxScript.TextSize = 14.000
+	PetsimxScript.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+	end)
+
+	OpenMain.Name = "OpenMain"
+	OpenMain.Parent = ScreenGui
+	OpenMain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	OpenMain.Position = UDim2.new(0, 0, 0.412256271, 0)
+	OpenMain.Size = UDim2.new(0, 131, 0, 47)
+	OpenMain.Active = true
+	OpenMain.Draggable = true
+
+	Open.Name = "Open"
+	Open.Parent = OpenMain
+	Open.BackgroundColor3 = Color3.fromRGB(199, 5, 8)
+	Open.BorderColor3 = Color3.fromRGB(65, 255, 23)
+	Open.Position = UDim2.new(-2.98023224e-08, 0, -3.7252903e-09, 0)
+	Open.Size = UDim2.new(0, 131, 0, 47)
+	Open.Font = Enum.Font.SourceSans
+	Open.Text = "Open"
+	Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Open.TextSize = 50.000
+	Open.MouseButton1Down:connect(function()
+		OpenMain.Visible = false
+		Main.Visible = true
+	end)
+end)
